@@ -1,6 +1,6 @@
 valor_dolar:8.75
 
-with open('vendas_dolar.txt','r')as entrada,open('vendas_real.txt','w')as saida:
+with open('vendas_dolar.txt', 'r')as entrada,open('vendas_real.txt', 'w')as saida:
     for linha in entrada:
         linha = linha.strip()
         if linha:
